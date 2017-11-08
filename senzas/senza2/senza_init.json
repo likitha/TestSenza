@@ -1,0 +1,17 @@
+{
+    "id" : "senza2",
+    "runtime" : {
+        "type": "R",
+        "packages": [
+            {
+                "type" : "R",
+                "file" : "requirements.R"
+            }
+        ]
+    },
+    "entrypoint" : "main.R",
+    "description" : "Test of senza2",
+    "tags" : [],
+    "name": "Senza 2",
+    "external_resources" : []
+}

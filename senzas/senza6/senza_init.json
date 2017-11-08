@@ -1,0 +1,11 @@
+{
+    "id" : "senza6",
+    "runtime" : {
+        "type": "python3"
+    },
+    "entrypoint" : "main.py",
+    "description" : "Test of senza6. Raises an Error.",
+    "name": "Senza 6",
+    "tags" : [],
+    "external_resources" : []
+}

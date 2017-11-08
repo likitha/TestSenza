@@ -1,0 +1,29 @@
+{
+    "id": "test-deployment",
+    "name": "Workflow 1",
+    "max_concurrency": 1,
+    "senzas": [
+        {
+            "type": "local.senza3",
+            "id": "1"
+        }
+    ],
+    "parameters": [
+        {
+            "id": "1",
+            "type": "posted",
+            "source": "",
+            "value": "test value"
+        }
+    ],
+    "dependencies": [
+        {
+            "senza_id": "1",
+            "upstream_senzas": [
+            ],
+            "variable_mappings": [
+                "1"
+            ]
+        }
+    ]
+}

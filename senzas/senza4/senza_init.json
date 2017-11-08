@@ -1,0 +1,11 @@
+{
+    "id" : "senza4",
+    "runtime" : {
+        "type": "python3"
+    },
+    "entrypoint" : "main.py",
+    "description" : "Test of senza4",
+    "name": "Senza 4",
+    "tags" : [],
+    "external_resources" : []
+}

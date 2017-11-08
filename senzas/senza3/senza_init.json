@@ -1,0 +1,20 @@
+{
+    "id" : "senza3",
+    "runtime" : {
+        "type": "python3",
+        "packages": [
+            {
+                "type" : "python3",
+                "file" : "requirements.txt"
+            }
+        ]
+    },
+    "entrypoint" : "main.py",
+    "description" : "Test of senza3",
+    "dependency_dirs": [
+    	"../utils"
+    ],
+    "tags" : [],
+    "name": "Senza 3",
+    "external_resources" : []
+}

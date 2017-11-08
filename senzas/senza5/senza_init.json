@@ -1,0 +1,11 @@
+{
+    "id" : "senza5",
+    "runtime" : {
+        "type": "dotNetCore"
+    },
+    "entrypoint" : "Senza5.dll",
+    "description" : "Test of senza5",
+    "name": "Senza 5",
+    "tags" : [],
+    "external_resources" : []
+}
