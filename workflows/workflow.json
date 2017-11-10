@@ -10,10 +10,10 @@
     ],
     "parameters": [
         {
-            "id": "1",
+            "id": "2",
             "type": "posted",
-            "source": "",
-            "value": "test value"
+            "source": "var1",
+            "value": null
         }
     ],
     "dependencies": [
@@ -22,7 +22,7 @@
             "upstream_senzas": [
             ],
             "variable_mappings": [
-                "1"
+                "2"
             ]
         }
     ]
