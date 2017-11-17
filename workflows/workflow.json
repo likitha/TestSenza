@@ -1,28 +1,41 @@
 {
-    "id": "test-deployment",
+    "id" : "one",
     "name": "Workflow 1",
     "max_concurrency": 1,
-    "senzas": [
+    "senzas" : [
         {
-            "type": "local.senza3",
-            "id": "1"
+            "type" : "local.senza4",
+            "id" : "1"
         }
     ],
-    "parameters": [
+    "parameters" : [
         {
-            "id": "2",
-            "type": "posted",
-            "source": "var1",
-            "value": null
+            "id" : "1",
+            "type" : "senza",
+            "source" : "1",
+            "value" : null
+        },
+        {
+            "id" : "5",
+            "type" : "posted",
+            "source" : "var1",
+            "value" : null
+        },
+        {
+            "id" : "6",
+            "type" : "posted",
+            "source" : "var2",
+            "value" : null
         }
     ],
-    "dependencies": [
+    "dependencies" : [
         {
-            "senza_id": "1",
-            "upstream_senzas": [
+            "senza_id" : "1",
+            "upstream_senzas" : [
             ],
-            "variable_mappings": [
-                "2"
+            "variable_mappings" : [
+                "5",
+                "6"
             ]
         }
     ]
